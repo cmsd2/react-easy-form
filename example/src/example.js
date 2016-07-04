@@ -39,7 +39,7 @@ class App extends Component {
 	handleSubmit(formData) {
 		this.setState({
 			formData
-		})
+		});
 		this.refs.form.clear();
 	}
 
@@ -64,7 +64,7 @@ class App extends Component {
 						<button className="pure-button pure-button-primary" type="submit">Submit</button>
 					</div>
 
-					<div style={{marginTop: "20px"}}>
+					<div style={{marginTop: '20px'}}>
 						{JSON.stringify(this.state.formData)}
 					</div>
 				</fieldset>

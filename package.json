@@ -18,16 +18,16 @@
     "url": "https://github.com/geowarin/react-easy-form/issues"
   },
   "devDependencies": {
-    "babel-eslint": "^4.1.3",
-    "eslint": "^1.6.0",
-    "eslint-plugin-react": "^3.5.1",
+    "babel-eslint": "^6.1.0",
+    "eslint": "^3.0.0",
+    "eslint-plugin-react": "^5.2.2",
     "gulp": "^3.9.0",
-    "react": "^0.14.0",
+    "react": "^15.0.0",
     "react-component-gulp-tasks": "^0.7.6",
-    "react-dom": "^0.14.0"
+    "react-dom": "^15.0.0"
   },
   "peerDependencies": {
-    "react": "^0.14.0"
+    "react": "^15.0.0"
   },
   "browserify-shim": {
     "react": "global:React"
